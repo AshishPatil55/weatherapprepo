@@ -17,7 +17,7 @@ def get_weatherdata():
     }
     response=requests.get(url,params=param)
     data=response.json()
-    return f"data :{datworkspacea}"
+    return f"data :{data}"
 
 
 if __name__ == '__main__':
